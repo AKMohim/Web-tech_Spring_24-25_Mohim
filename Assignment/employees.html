@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee List</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="validation.js"></script>
+    </head>
+
+    <body>
+        <h1>Employee List</h1>
+        <table>
+            <tr>
+                <td>ID </td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Department</td>
+                <td>Joining Date</td>
+                <td>Gender</td>
+                <td>Employee Type</td>
+                <td>Crood Operation</td>
+            </tr>
+
+            <tr>
+                <td>EMP123</td>
+                <td>Eamel</td>
+                <td>eamel123@gmail.com</td>
+                <td>Sales Department</td>
+                <td>2025-01-02</td>
+                <td>Male</td>
+                <td> Full-Time</td>
+                <td><button onclick="editRow(this)">Edit</button>
+                    <button onclick="deleteRow(this)">Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>EMP456</td>
+                <td>Hasan</td>
+                <td>hasan456@gmail.com</td>
+                <td>IT Department</td>
+                <td>2025-09-09</td>
+                <td>Male</td>
+                <td> Full-Time</td>
+                <td><button onclick="editRow(this)">Edit</button>
+                    <button onclick="deleteRow(this)">Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>EMP789</td>
+                <td>Salma</td>
+                <td>salma789@gmail.com</td>
+                <td>HR Department</td>
+                <td>2025-08-08</td>
+                <td>Female</td>
+                <td> Full-Time</td>
+                <td><button onclick="editRow(this)">Edit</button>
+                    <button onclick="deleteRow(this)">Delete</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>EMP987</td>
+                <td>surma</td>
+                <td>surma987@gmail.com</td>
+                <td>Marketing Department</td>
+                <td>2025-10-12</td>
+                <td>Female</td>
+                <td> Full-Time</td>
+                <td><button onclick="editRow(this)">Edit</button>
+                    <button onclick="deleteRow(this)">Delete</button>
+                </td>
+            </tr>
+        </table>
+
+        <div id="editSection"></div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee Registration</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="validation.js"></script>
+    </head>
+
+    <body>
+        <h1>Employee Registration</h1>
+        <form style="text-align: center;" onsubmit="return validation()">
+
+            <label>Employee ID</label>
+            <input type="text" name="ID" placeholder="Enter Employee ID (e.g., EMP123)" id="id">
+            <span id="empId"></span><br>
+            <label>Name</label>
+            <input type="text" name="Name" placeholder="Enter Your Name " id="name">
+            <span id="empName"></span><br>
+            <label>Email</label>
+            <input type="text" name="Email" placeholder="Enter Your Email" id="email">
+            <span id="empEmail"></span><br>
+            <label>Department</label>
+            <select name="department" id="department">
+                <option>Select a Department</option>
+                <option>HR Department</option>
+                <option>Sales Department</option>
+                <option>IT Department</option>
+                <option>Marketing Department</option>  
+            </select>
+            <span id="empDept"></span><br>
+            <label>Joining Date</label>
+            <input type="date" name="joinDate" id="joinDate">
+            <span id="join"></span><br>
+            <label>Gender</label>
+            <label><input type="radio" name="Gender" value="Male" id="male">Male</label>
+            <label><input type="radio" name="Gender" value="Female" id="Female">Female </label>
+            <span id="empGender"></span><br>
+            <label>Employee Type</label>
+            <input type="checkbox" name="Full-Time" id="fullTime">Full-Time
+            <span id="empType"></span><br>
+            <button type="submit">Submit</button>
+            <button type="reset" onclick="clearErrors()">Reset</button>
+
+            <div id="output" style="text-align: center; margin-top: 20px;"></div>
+<br>
+
+
+
+
+
+        </form>
+    </body>
+</html>

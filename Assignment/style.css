@@ -1,0 +1,133 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f7f9;
+    text-align: center;
+}
+
+h1 {
+    color: #534d4d;
+    margin-top: 40px;
+}
+
+/*INDEX.HTML STYLES */
+a#register,
+a#employees {
+    display: inline-block;
+    margin: 30px;
+    padding: 15px 25px;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #4fc153;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+
+/*REGISTER.HTML STYLES */
+
+form {
+    background-color: #e7d5d5;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+    width: 60%;
+    max-width: 600px;
+}
+
+form label {
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+}
+
+form input[type="text"],
+form input[type="date"],
+form select {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+form span {
+    color: red;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+}
+
+
+button[type="reset"] {
+    background-color: #6c757d;
+    color: white;
+}
+
+
+/*EMPLOYEES.HTML STYLES */
+
+table {
+    width: 100%;
+    margin:  auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table th,
+table td {
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+button {
+    padding: 6px 12px;
+    margin: 2px;
+    font-size: 14px;
+}
+
+
+button[onclick*="editRow"] {
+    background-color: #ffc107;
+    color: black;
+}
+
+button[onclick*="deleteRow"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+#editSection {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#save12{
+    padding: 10px 12px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #77a1ce;
+    color: white;
+}
