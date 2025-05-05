@@ -9,7 +9,7 @@ h1 {
     margin-top: 40px;
 }
 
-/*INDEX.HTML STYLES */
+/*index.html */
 a#register,
 a#employees {
     display: inline-block;
@@ -23,7 +23,7 @@ a#employees {
 }
 
 
-/*REGISTER.HTML STYLES */
+/*register.html*/
 
 form {
     background-color: #e7d5d5;
@@ -83,7 +83,7 @@ button[type="reset"] {
 }
 
 
-/*EMPLOYEES.HTML STYLES */
+/*employees.html */
 
 table {
     width: 100%;
